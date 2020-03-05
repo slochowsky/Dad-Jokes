@@ -1,0 +1,31 @@
+.jokes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: 65%;
+}
+
+.singleJoke {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 2px solid goldenrod;
+    margin: 30px;
+    padding: 40px;
+    max-width: 20em;
+    
+}
+
+.question {
+    padding: 10px;
+}
+
+.answer {
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
