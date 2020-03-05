@@ -1,19 +1,14 @@
 .jokes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: 65%;
 }
 
 .singleJoke {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
     border: 2px solid goldenrod;
-    margin: 30px;
-    padding: 40px;
-    max-width: 20em;
-    
+    padding: 20px;
+    max-width: 20em;    
 }
 
 .question {
